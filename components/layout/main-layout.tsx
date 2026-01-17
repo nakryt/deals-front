@@ -9,7 +9,7 @@ export const MainLayout = ({ children }: MainLayoutProps) => {
     <div className="relative flex min-h-screen flex-col">
       <Header />
       <main className="flex-1 m-auto min-w-[1200px]">
-        <div className="container py-6">{children}</div>
+        <div className="container py-6 m-auto">{children}</div>
       </main>
     </div>
   );
