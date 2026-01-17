@@ -1,0 +1,5 @@
+**/*.css
+.next
+node_modules
+public
+app/globals.css
